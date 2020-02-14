@@ -18,6 +18,6 @@ function appendKitten(Broom) {
   return [...kittens,Broom]
 }
 function prependKitten(Broom) {
- return [Broom, kittens...] 
+ return [Arnoald, kittens...] 
 }
   
