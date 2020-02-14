@@ -20,4 +20,6 @@ function appendKitten(Broom) {
 function prependKitten(Arnold) {
  return [Arnold, ...kittens] 
 }
-  function removeLastKitten()
+  function removeLastKitten() {
+    kittens.slice(2)
+  }
